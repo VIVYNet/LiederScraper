@@ -17,8 +17,6 @@ ADDRESS = login_info["address"]
 PORT = login_info["port"]
 USERNAME = login_info["username"]
 PASSWORD = login_info["password"]
-USER = login_info["user"]
-PASS = login_info["pass"]
 
 # Connect to MongoDB, whilst checking if the login file specified localhost
 if ADDRESS.lower() == "localhost":
